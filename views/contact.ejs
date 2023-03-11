@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Forward Fitness Club</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+
+		<header>
+			<a href="/"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo" height="220" width="297"></a>
+		</header>
+		
+
+		<nav>
+			<ul>
+                <li><a href="/">Home</a></li> 
+                <li><a href="/about">About Us</a></li> 
+                <li><a href="/classes">Classes</a></li> 
+                <li><a href="/nutrition">Nutrition</a></li> 
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+		</nav>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+			<div id="contact">
+			
+				<h2>Ready to get started? Contact us today.</h2> 					
+                <h4 class="mobile tel-link"><a href="tel:8145559608">(814) 555-9608</a></h4>
+                <h4 class="tablet-desktop tel-num">(814) 555-9608</h4>
+				<h4>Email us: <a href="mailto:forwardfitness@club.net" class="contact-email-link">forwardfitness@club.net</a></h4>
+				<h4>Visit us at: 1275 Channel Center Street, Boston, MA 02210</h4>
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8517572084897!2d-71.05362748503984!3d42.34568384400281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel+Center+St%2C+Boston%2C+MA+02210!5e0!3m2!1sen!2sus!4v1558137213400!5m2!1sen!2sus" width="600" height="450" allowfullscreen class="map"></iframe>
+			
+			</div>
+		<h2>Complete the form below to begin your free trial.</h2>
+	<div id="form">
+		<form action="/contact" method="POST" id="form"> 
+			<label for="fName">First Name:</label>
+			<input type="text" id="fName" name="fName">
+			
+			<label for="lName">Last Name:</label>
+			<input type="text" id="lName" name="lName">
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone">
+			
+			<label for="reference">Referral Source:</label>
+			<select name="reference" id="reference">
+				<option value="ad">Advertisement</option>
+				<option value="friend">Friend</option>
+				<option value="google">Google</option>
+				<option value="social">Social Media</option>
+				<option value="other">Other</option>
+			</select>
+			
+			<label for="questions">Questions?</label>
+			<textarea id="questions" name="questions" rows="3"></textarea>
+			
+			<input type="submit" id="submit" value="Submit" class="btn">
+			<input type="submit" id="reset" value="Reset Form" class="btn"
+            onsubmit="document.getElementById('form').clear();">
+		</form>
+        </div>
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy; Copyright 2023. All Rights Reserved.</p>
+			<p><a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a></p>
+		</footer>
+	
+	</div>
+	
+</body>
+</html>
