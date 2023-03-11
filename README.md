@@ -24,10 +24,10 @@
 
 ## Running the Project
 
-1. In the terminal, run: `npm start` or `node sever.js` or `nodemon sever.js`
+1. In the terminal, run: `npm start` or `node server.js` or `nodemon server.js`
 2. Browse to frontend at [localhost:3003](http://localhost:3003).
 3. Sign up and login to add, edit, or delete hikes.
 
-![fitness](images/classesTable.png?raw=true{:height="50px"width="50px"})
-![fitness](images/MongoDB.png?raw=true{:height="50px"width="50px"})
-![fitness](images/wireFrame.png?raw=true{:height="50px"width="50px"})
+![fitness](public/images/classesTable.png?raw=true{:height="50px"width="50px"})
+![fitness](public/images/MongoDB.png?raw=true{:height="50px"width="50px"})
+![fitness](public/images/wireframe.png?raw=true{:height="50px"width="50px"})
