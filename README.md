@@ -1,4 +1,5 @@
 # Node Fitness
+![gym](https://user-images.githubusercontent.com/53094729/233705268-8adc1ae7-7522-4a2a-909d-89fe77e3a956.gif)
 
 ### Live Demo
 
@@ -31,10 +32,10 @@ https://fitness-den6.onrender.com/
 1. In the terminal, run: `npm start` or `node server.js` or `nodemon server.js`
 2. Browse to frontend at [localhost:3000](http://localhost:3000).
 
-![fitness](public/images/classesTable.png?raw=true{:height="50px"width="50px"})
-![fitness](public/images/MongoDB.png?raw=true{:height="50px"width="50px"})
-![fitness](public/images/wireframe.png?raw=true{:height="50px"width="50px"})
-![fitness](public/images/Exercise.png?raw=true{:height="50px"width="50px"})
-![fitness](public/images/Map.png?raw=true{:height="50px"width="50px"})
-![fitness](public/images/Nutrition.png?raw=true{:height="50px"width="50px"})
-![fitness](public/images/StartPage.png?raw=true{:height="50px"width="50px"})
+<img src="public/images/classesTable.png" />
+<img src="public/images/MongoDB.png" />
+<img src="public/images/wireframe.png" />
+<img src="public/images/Exercise.png" />
+<img src="public/images/Map.png" />
+<img src="public/images/Nutrition.png" />
+<img src="public/images/StartPage.png" />
